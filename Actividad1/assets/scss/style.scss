@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+//Colores
+$blanco: #ffffff;
+$azul_agua: #6CD3D7;
+$verde_raro: #044981;
+$morado: #3A36A5;
+$morado2: rgb(26, 14, 96);
+$rosa: #FD76A2;
+$blanco2: #dfb7b8;
+$negro2: #2f3045;
+
+//Fuentes
+$fuente_Principal: 'Montserrat', sans-serif;
+$fuente_Secundaria: 'Raleway', sans-serif;
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: $fuente_Principal;
+    background-image: url('https://coolwallpapers.me/picsup/2614723-mountains-screen-wallpaper-free-download.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .site-header{
+        background-color: $negro2;
+    }
+    .barra{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 120px;
+        
+        .nombre_uni{
+            max-width: 4000px;
+
+            h1{
+                margin: 0;
+                font-size: 30px;
+                color: white;
+                font-family: $fuente_Secundaria;
+                font-weight: bold;
+            }
+        }
+        .logo{
+            max-width: 200px;
+        }
+
+        .matriculas{
+            width: 250px;
+            text-align: center;
+            .matri_flex{
+                justify-content: space-between;
+                display: flex;
+                p{
+                    font-size: 25px;
+                    padding: .5rem 1rem;
+                    background-color: $rosa;
+                    margin-right: 20px;
+                    color: $blanco;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
